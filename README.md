@@ -1,27 +1,24 @@
-# FrontendProduto
+# 🛍️ Frontend Produto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+Este é o frontend de uma aplicação de vitrine de produtos, desenvolvido em **Angular**. Ele consome a API REST do backend (NestJS) para exibir uma lista de produtos, detalhes individuais e gerenciar um carrinho de compras.
 
-## Development server
+## 🚀 Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
-## Code scaffolding
+## 🔧 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Listagem de produtos
+- Visualização de detalhes via query param (`/produtos/detalhe?id=1`)
+- Adição ao carrinho com persistência local
+- Página inicial redireciona para `/produtos`
+- Redirecionamento de rotas inválidas para `/produtos`
 
-## Build
+## 🧑‍💻 Como rodar localmente
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npm install
+ng serve
