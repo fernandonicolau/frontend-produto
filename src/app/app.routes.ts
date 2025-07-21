@@ -6,6 +6,7 @@ export const routes: Routes = [
     pathMatch: 'full',
     redirectTo: 'produtos',
   },
+  { path: '**', redirectTo: '/produtos', pathMatch: 'full' },
   {
     path: 'produtos',
     loadChildren: () =>
