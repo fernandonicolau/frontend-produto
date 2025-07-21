@@ -16,5 +16,4 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./carrinho/carrinho.module').then((m) => m.CarrinhoModule),
   },
-  { path: '', redirectTo: 'produtos', pathMatch: 'full' },
 ];

@@ -52,6 +52,6 @@ export class ProdutoListComponent implements OnInit {
   }
 
   verDetalhes(id: number): void {
-    this.router.navigate(['/produtos', id]);
+    this.router.navigate(['/produtos/detalhe'], { queryParams: { id } });
   }
 }
