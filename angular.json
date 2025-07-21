@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/frontend-produto",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "baseHref": "/",
@@ -68,7 +68,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@angular-devkit/build-angular:browser",
           "configurations": {
             "production": {
               "buildTarget": "frontend-produto:build:production"
