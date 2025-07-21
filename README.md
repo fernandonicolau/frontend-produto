@@ -22,3 +22,9 @@ Este é o frontend de uma aplicação de vitrine de produtos, desenvolvido em **
 ```bash
 npm install
 ng serve
+Acesse em: http://localhost:4200
+
+## 🌐 Deploy
+
+O projeto está publicado em:
+https://frontend-produto.onrender.com/produtos
