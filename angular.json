@@ -20,7 +20,7 @@
             "outputPath": "dist/frontend-produto",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/frontend-produto/",
+            "baseHref": "/",
             "polyfills": [
               "zone.js"
             ],
